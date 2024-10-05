@@ -1,0 +1,13 @@
+logging:
+  level:
+    web: debug
+spring:
+  application:
+    name: spring-reactive-api
+  r2dbc:
+    url: <url>
+    username: <user>
+    password: <password>
+  sql:
+    init:
+      mode: always
